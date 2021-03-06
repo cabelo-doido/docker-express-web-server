@@ -1,0 +1,22 @@
+{
+  "name": "docker-express-web-server",
+  "version": "1.0.0",
+  "description": "Docker with express web server for general web application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabelo-doido/docker-express-web-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cabelo-doido/docker-express-web-server/issues"
+  },
+  "homepage": "https://github.com/cabelo-doido/docker-express-web-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
