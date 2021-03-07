@@ -14,7 +14,7 @@ docker build . -t [container image]
 #### Container Run
 
 ```shell
-docker run -d -p 80:3000 --name [container name] [container image]
+docker run -d -p 80:3000 --name [container name] -v [web app location]:/app/public [container image]
 ```
 
 #### File Locations
