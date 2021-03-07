@@ -17,6 +17,8 @@ docker build . -t [container image]
 docker run -d -p 80:3000 --name [container name] -v [web app location]:/app/public [container image]
 ```
 
+*PS It's an option you can include your web on build or mount volume later on docker runtime
+
 #### File Locations
 
 * `/app/public` - Web application location
